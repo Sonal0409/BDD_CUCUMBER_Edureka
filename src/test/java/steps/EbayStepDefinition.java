@@ -11,6 +11,8 @@ public class EbayStepDefinition {
 public void i_am_on_ebayHomepage() {
     
 	System.out.println("homepage");
+	System.out.println("New change for git");
+	
 }
 
 @When("I get title of the page")
