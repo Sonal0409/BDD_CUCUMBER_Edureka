@@ -18,6 +18,7 @@ public void i_am_on_ebayHomepage() {
 @When("I get title of the page")
 public void i_get_title_of_the_page() {
 	System.out.println("title page");
+	System.out.println("New change coming from Nimesha");
 }
 
 @Then("I valiadate the page title")
