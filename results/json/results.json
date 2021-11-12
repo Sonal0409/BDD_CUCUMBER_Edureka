@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T02:44:13.425Z",
+        "line": 5,
+        "name": "title of the page",
+        "description": "",
+        "id": "ebay-home-page;title-of-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2180400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on ebayHomepage",
+            "match": {
+              "location": "steps.EbayStepDefinition.i_am_on_ebayHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get title of the page",
+            "match": {
+              "location": "steps.EbayStepDefinition.i_get_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I valiadate the page title",
+            "match": {
+              "location": "steps.EbayStepDefinition.i_valiadate_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ebay"
+          }
+        ]
+      }
+    ],
+    "name": "ebay Home page",
+    "description": "",
+    "id": "ebay-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/EbayHomePage.feature",
+    "tags": []
+  }
+]
